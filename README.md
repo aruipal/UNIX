@@ -8,5 +8,5 @@ Comandos Ubuntu
 `echo "Hola" >> archivo.txt`
 
 ### VER ARCHIVO
-`cat archivo.txt`
+`cat archivo.txt`\
 `nano archivo.txt`
