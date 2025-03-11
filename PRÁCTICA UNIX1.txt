@@ -1,0 +1,65 @@
+1. Crea un archivo llamado examen.txt y agrega las siguientes líneas usando redirección:
+"Usuario A inició sesión"
+"Usuario B cerró sesión"
+"Usuario C realizó una operación"
+
+2. Muestra el contenido del archivo examen.txt usando el comando adecuado
+
+3. Agrega dos nuevas líneas al archivo sin sobreescribirlo:
+
+"Juan Pedro inició sesión"
+"Rafael cerró sesión"
+
+4. Usa tee para mostrar el contenido de examen.txt en pantalla, y guarda una copia en examen_copia.txt
+
+5. Usa more y les para visualizar el contenido de examen.txt
+
+6. Simula un error ejecutando un comando sobre un archivo inexistente y redirige el error a un archivo que se llame errores.log
+
+7. Crea un archivo llamado acciones.txt con 5 registros, incluyendo mensajes de INFO, WARNING y ERROR
+
+8. Filtra y guarda solo los mensajes de ERROR en errores_acciones.txt 
+
+9. Cuenta cuántos mensajes INFO, WARNING y ERROR hay, y guarda el resultado en resumen_acciones.txt en formato "Líneas XXXXX: …"
+
+10. Ejecuta un conjunto de comandos desde un archivo llamado comandos.sh (comandos: echo"Esto es una línea" , ls echo e, ls archivo_inexistente, echo "Buenos días" ) separando su salida estándar y errores en salidas_comandos.txt y errores_comandos.txt.
+
+11. Concatena el contenido de los archivos examen.txt, acciones.txt y errores.log en un nuevo archivo llamado consolidado.txt.
+
+12. Ordena alfabéticamente el contenido de consolidado.txt y guárdalo en consolidado_ordenado.txt.
+
+13. Elimina las líneas duplicadas de consolidado_ordenado.txt y guarda el resultado en consolidado_unico.txt.
+
+14. Cuenta el número de líneas en consolidado_unico.txt, guardando el resultado en estadisticas.txt.
+
+15. Encuentra todas las líneas que contienen la palabra "sesión" en consolidado_unico.txt y guárdalas en filtrado_sesion.txt.
+
+16. Crea un nuevo archivo llamado alumnos.txt que tenga todos los nombres de los alumnos de clase
+
+17. Ordena alfabéticamente el archivo alumnos.txt 
+
+18. Busca todos los archivos con el nombre *.txt dentro de un directorio específico llamado examen donde habéis guardado estos archivos, muestra sus nombres y guárdalos en un archivo llamado archivos_txt_proyecto.txt.
+
+19. Muestra los archivos mayores de 1 MB
+
+20. Crea un archivo de registro procesos.txt con los detalles de 9 procesos
+
+21. Filtra y guarda solo los procesos que pertenecen a vuestro usuario y guardalos en procesos_usuario.txt
+
+22. Usa el comando kill para matar un proceso de prueba, y verifica que haya sido detenido con el comando ps.
+
+23. Crea un nuevo usuario que se llame "Armada ESP"
+
+24. Añade una contraseña a ese usuario
+
+25. Haz propietario del archivo procesos_usuario.txt a este usuario creado
+
+26. Añade permisos de escritura, ejecución y lectura al propietario de este archivo, y lectura al resto.
+
+27. Muestra los permisos de ese archivo posteriormente
+
+28. Copia el directorio a otro igual llamado EXAMEN_VUESTRONOMBRE (poner el nombre, no eso)
+
+29. Muestra el contenido del segundo directorio
+
+30. Elimina el primer directorio
