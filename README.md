@@ -5,7 +5,7 @@ Comandos Ubuntu
 echo "Buenos días" > archivo.txt
 
 ### AÑADIR CONTENIDO AL ARCHIVO
-echo "Hola" >> archivo.txt
+`echo "Hola" >> archivo.txt`
 
 ### VER ARCHIVO
 cat archivo.txt
