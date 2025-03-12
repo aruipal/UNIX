@@ -1,5 +1,5 @@
 # UNIX
-Comandos Ubuntu:
+<ins>Comandos Ubuntu:</ins>
 
 ### CREAR ARCHIVO Y MOSTRAR:
 <pre><code id="codigo">echo "Buenos días" > archivo.txt</code></pre>
