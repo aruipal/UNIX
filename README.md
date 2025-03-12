@@ -3,6 +3,7 @@ Comandos Ubuntu
 
 ### CREAR ARCHIVO Y MOSTRAR:
 ```echo "Buenos días" > archivo.txt```
+<pre><code id="codigo">echo "Buenos días" > archivo.txt</code></pre>
 
 ### AÑADIR CONTENIDO AL ARCHIVO
 `echo "Hola" >> archivo.txt`
@@ -17,3 +18,5 @@ Comandos Ubuntu
 <script>
     var clipboard = new ClipboardJS('.btn');
 </script>
+
+<pre><code id="codigo">echo "Hola Mundo"</code></pre>
