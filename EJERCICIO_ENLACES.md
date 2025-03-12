@@ -12,3 +12,7 @@
 <pre><code id="codigo">cat enlace_hard</code></pre>
 <pre><code id="codigo">cat enlace_soft</code></pre>
 <pre><code id="codigo">ls -l enlace_hard enlace_soft</code></pre>
+### Detectar enlaces
+<pre><code id="codigo">find . -xtype l</code></pre>
+### Eliminar enlaces rotos
+<pre><code id="codigo">find . -xtype -delete</code></pre>
