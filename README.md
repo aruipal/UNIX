@@ -1,7 +1,7 @@
 # UNIX
 <ins>Comandos Ubuntu:</ins>
 
-### CREAR ARCHIVO Y MOSTRAR:
+### CREAR ARCHIVO CON CONTENIDO:
 <pre><code id="codigo">echo "Buenos días" > archivo.txt</code></pre>
 
 ### AÑADIR CONTENIDO AL ARCHIVO
