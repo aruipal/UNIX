@@ -2,7 +2,7 @@
 Comandos Ubuntu
 
 ### CREAR ARCHIVO Y MOSTRAR:
-`echo "Buenos días" > archivo.txt`
+```echo "Buenos días" > archivo.txt```
 
 ### AÑADIR CONTENIDO AL ARCHIVO
 `echo "Hola" >> archivo.txt`
