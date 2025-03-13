@@ -16,3 +16,7 @@
 <pre><code id="codigo">fg %2</code></pre>
 ### Matar el último proceso
 <pre><code id="codigo">kill %1</code></pre>
+### Eliminar procesos de usuario
+<pre><code id="codigo">pkill -u antonio</code></pre>
+### Eliminar procesos de un tipo
+<pre><code id="codigo">pkill firefox</code></pre>
