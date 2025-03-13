@@ -13,3 +13,5 @@
 <pre><code id="codigo">ls -l archivo.txt</code></pre>
 ### Cambiar a root
 <pre><code id="codigo">sudo su</code></pre>
+### Permisos de propiedad a todos los archivos de una ruta
+<pre><code id="codigo">sudo chown -R aruipal /home/antonio/copia</code></pre>
