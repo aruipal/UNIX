@@ -1,9 +1,9 @@
 ### Crea un grupo llamado E2T:
 <pre><code id="codigo">sudo groupadd E2T</code></pre>
 ### Crea un usuario:
-sudo useradd -m aruipal
+<pre><code id="codigo">sudo useradd -m aruipal</code></pre>
 ### Contraseña de usuario:
-sudo passwd aruipal
+<pre><code id="codigo">sudo passwd aruipal</code></pre>
 ### Añade 3 usuarios al grupo:
 <pre><code id="codigo">sudo usermod -aG E2T antonio</code></pre>
 <pre><code id="codigo">sudo usermod -aG E2T aruipal</code></pre>
