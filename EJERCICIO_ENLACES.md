@@ -1,3 +1,10 @@
+| <mark>Comando</mark> | <mark>Descripción</mark> |
+| ----------- | ----------- |
+| ln -s    | Crea enlace simbólico |
+| ls  | Crea enlace duro |
+| find /. -xtype l | Detectar enlaces |
+| find /. -xtype l -delete | Borrar enlace |
+
 ## <ins>Tipos de archivos:</ins>
   - Ordinarios: archivos de texto o binarios.
   - Directorios: carpetas.
