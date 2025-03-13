@@ -41,3 +41,8 @@
 <pre><code id="codigo">find . -xtype l</code></pre>
 ### Eliminar enlaces rotos
 <pre><code id="codigo">find . -xtype -delete</code></pre>
+### Crear archivo, generar enlaces y mostrar información:
+  <pre><code id="codigo">echo "Esto es un archivo" > origen.txt</code></pre>
+  <pre><code id="codigo">ln origen.txt enlace1</code></pre>
+  <pre><code id="codigo">ln -s origen.txt enlace2</code></pre>
+  <pre><code id="codigo">ls -li enlace1 enlace2</code></pre>
