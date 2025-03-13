@@ -4,6 +4,7 @@
   - Escritura (w): 2
   - Ejecución (x): 1
 <img src="https://github.com/aruipal/UNIX/blob/main/permisos.png" alt="permisos" width="350" />
+
 ## Cambiar dueño del archivo
 <pre><code id="codigo">sudo chown usuario:grupo archivo.txt</code></pre>
 ## Cambiar a root un archivo:
